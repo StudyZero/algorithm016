@@ -3,6 +3,7 @@
 
 递归模板：
 # Python
+'''
 def recursion(level, param1, param2, ...): 
     # recursion terminator 
     if level > MAX_LEVEL: 
@@ -13,10 +14,11 @@ def recursion(level, param1, param2, ...):
     # drill down 
     self.recursion(level + 1, p1, ...) 
     # reverse the current level status if needed
- 
+ '''
  
  分治模板：
  # Python
+'''
 def divide_conquer(problem, param1, param2, ...): 
   # recursion terminator 
   if problem is None: 
@@ -37,3 +39,4 @@ def divide_conquer(problem, param1, param2, ...):
   result = process_result(subresult1, subresult2, subresult3, …)
 	
   # revert the current level states
+'''
